@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '~> 5.1', '>= 5.1.4'
 gem "haml-rails"
 gem "erb2haml"
+gem 'bcrypt', '~> 3.1', '>= 3.1.11'
 # Use sqlite3 as the database for Active Record
 gem 'activesupport', '~> 5.1', '>= 5.1.4'
 gem 'railties', '~> 5.1', '>= 5.1.4'
@@ -14,7 +15,7 @@ gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-gem 'coffee-rails', '~> 4.2', '>= 4.2.2'  
+gem 'coffee-rails', '~> 4.2', '>= 4.2.2'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
